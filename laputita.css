@@ -1,0 +1,104 @@
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: monospace;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+h1 {
+  
+    }
+}
+
+.GRANCONTENEDOR {
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items:start;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.contenedor {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgba(59, 0, 0, 0.226);   
+    border-radius: 20px;
+    text-align: center;
+    width: 90%;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 950px) {
+.contenedor {
+  display: block;
+  }
+}
+
+/* ESTO HA SIDO CREADO POR CHAT GPT */
+
+.GRANCONTENEDOR {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .IZQUIERDA {
+    flex: 25%;
+  }
+  
+  .DERECHA {
+    flex: 50%;
+    display: block;
+  }
+
+/* ESTO A SIDO CREADO POR CHAT GPT */
+
+/*  */
+@media only screen and (max-width: 1300px) {
+.GRANCONTENEDOR {
+    display: block;
+    flex-direction: row;
+  }
+}
+
+body {
+    margin: auto;
+    width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+body {
+    margin:  auto;
+    }
+}
+
+.imagen {
+  margin: 2%;
+  border-radius: 20px;
+}
+
+#IMAGENGRANDE {
+  object-fit: cover;
+  width:90%;
+}
+
+@media only screen and (max-width: 768px) {
+.imagen {
+    margin: 2%;
+    border-radius: 20px;
+  }
+}
+
+.parrafo {
+    margin-inline: 3%;
+}
+
+/*  */
